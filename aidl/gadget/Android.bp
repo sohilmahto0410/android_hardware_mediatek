@@ -70,7 +70,7 @@ cc_binary {
     ],
 }
 
-target_board_platform_prebuilt_etc {
+/* target_board_platform_prebuilt_etc {
     defaults: ["mediatek_gadget_rc_defaults"],
     soong_config_variables: {
         target_board_platform: {
@@ -83,4 +83,4 @@ target_board_platform_prebuilt_etc {
     src: "init.mediatek.usb.rc",
     sub_dir: "init/hw",
     vendor: true,
-}
+} */
